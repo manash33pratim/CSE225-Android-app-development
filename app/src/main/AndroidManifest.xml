@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CSE225Notes"
+        tools:targetApi="31">
+        <activity
+            android:name=".unit_6.NavigationDrawerDemo"
+            android:exported="true" />
+        <activity
+            android:name=".unit_5.ReadExternalStorageDemo"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".unit_5.WriteExternalStorageDemo"
+            android:exported="false" />
+        <activity
+            android:name=".unit_5.InternalStorageDemo"
+            android:exported="true" />
+        <activity
+            android:name=".unit_5.ImageSharedPreferences"
+            android:exported="true" />
+        <activity
+            android:name=".unit_5.SharedPreferencesDemo"
+            android:exported="true" />
+        <activity
+            android:name=".unit_4.CustomViewTextViewExample"
+            android:exported="true" />
+        <activity
+            android:name=".unit_4.CustomViewEditTextExample"
+            android:exported="true" />
+        <activity
+            android:name=".unit_4.CustomViewExample"
+            android:exported="true" />
+        <activity
+            android:name=".unit_3.DateTimePickerExample"
+            android:exported="true" />
+        <activity
+            android:name=".unit_3.dynamic_fragment.DynamicFragmentDemo"
+            android:exported="true" />
+        <activity
+            android:name=".unit_3.ColorActivityDemo"
+            android:exported="false" />
+        <activity
+            android:name=".unit_3.FragmentDemo"
+            android:exported="true" />
+        <activity
+            android:name=".unit_2.NotificationViewExample2"
+            android:exported="false" />
+        <activity
+            android:name=".unit_2.NotificationManagerExample2"
+            android:exported="false" />
+        <activity
+            android:name=".unit_2.NotificationViewExample"
+            android:exported="false" />
+        <activity
+            android:name=".unit_2.NotificationManagerExample"
+            android:exported="false" />
+        <activity
+            android:name=".unit_2.JobSchedulerExample"
+            android:exported="false" />
+
+        <service
+            android:name=".unit_2.MyJobService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name=".unit_2.AlarmManagerUser"
+            android:exported="false" />
+
+        <receiver android:name=".unit_2.AlarmManagerBroadcast" />
+
+        <activity
+            android:name=".unit_2.AlarmManagerExample"
+            android:exported="false" />
+
+        <receiver android:name=".unit_2.AlarmManagerExample$MyAlarmDemo" />
+
+        <activity
+            android:name=".unit_2.ClickImage"
+            android:exported="false" />
+        <activity
+            android:name=".unit_2.OpenCamera"
+            android:exported="false" />
+        <activity
+            android:name=".unit_2.CameraIntent"
+            android:exported="false" />
+        <activity
+            android:name=".BottomNavigationBarExample"
+            android:exported="false" />
+        <activity
+            android:name=".unit_1.CustomToastExample"
+            android:exported="false" />
+        <activity
+            android:name=".unit_1.HeaderFooterDemo"
+            android:exported="true" />
+        <activity
+            android:name=".unit_1.ProgressBarExample"
+            android:exported="false" />
+        <activity
+            android:name=".unit_1.SplashScreenExampleMain"
+            android:exported="false" />
+        <activity
+            android:name=".unit_1.SplashScreenExample"
+            android:exported="false" />
+        <activity
+            android:name=".unit_1.RatingBarAverageExample"
+            android:exported="false" />
+        <activity
+            android:name=".unit_1.RatingBarExample"
+            android:exported="false" />
+        <activity
+            android:name=".unit_1.ToolBarExampleTwo"
+            android:exported="true"
+            android:theme="@style/Theme.CSE225Notes.NoActionBar" />
+        <activity
+            android:name=".unit_1.ToolBarExample"
+            android:exported="true"
+            android:theme="@style/Theme.CSE225Notes.NoActionBar" />
+        <activity
+            android:name=".unit_1.ScrollViewExample"
+            android:exported="false" />
+    </application>
+
+</manifest>
