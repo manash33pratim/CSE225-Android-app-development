@@ -10,7 +10,7 @@
     <fragment
         android:tag="fragment"
         android:id="@+id/fragment1"
-        android:name="com.example.cse225_notes.unit_3.ColorFragmentDemo1"
+        android:name="com.manash.cse225_notes.unit_3.ColorFragmentDemo1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1" />
@@ -18,7 +18,7 @@
     <fragment
         android:id="@+id/fragment2"
         android:tag="fragment2"
-        android:name="com.example.cse225_notes.unit_3.ColorFragmentDemo2"
+        android:name="com.manash.cse225_notes.unit_3.ColorFragmentDemo2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1" />

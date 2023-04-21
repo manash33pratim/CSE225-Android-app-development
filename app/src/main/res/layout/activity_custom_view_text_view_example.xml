@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".unit_4.CustomViewTextViewExample">
 
-    <com.example.cse225_notes.unit_4.CustomViewTextViewDemo
+    <com.manash.cse225_notes.unit_4.CustomViewTextViewDemo
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="120dp"

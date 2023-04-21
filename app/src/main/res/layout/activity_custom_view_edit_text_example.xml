@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".unit_4.CustomViewEditTextExample">
 
-    <com.example.cse225_notes.unit_4.CustomViewEditTextDemo
+    <com.manash.cse225_notes.unit_4.CustomViewEditTextDemo
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:paddingLeft="20dp"

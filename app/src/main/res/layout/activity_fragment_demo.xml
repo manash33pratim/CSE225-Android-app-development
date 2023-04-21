@@ -9,14 +9,14 @@
 
     <fragment
         android:id="@+id/fragment1"
-        android:name="com.example.cse225_notes.unit_3.StaticFragmentOneDemo"
+        android:name="com.manash.cse225_notes.unit_3.StaticFragmentOneDemo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
     <fragment
         android:id="@+id/fragment2"
-        android:name="com.example.cse225_notes.unit_3.StaticFragmentTwoDemo"
+        android:name="com.manash.cse225_notes.unit_3.StaticFragmentTwoDemo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1" />

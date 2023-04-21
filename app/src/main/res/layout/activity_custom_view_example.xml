@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".unit_4.CustomViewExample">
 
-    <com.example.cse225_notes.unit_4.CustomViewDemoOneSmiley
+    <com.manash.cse225_notes.unit_4.CustomViewDemoOneSmiley
         android:id="@+id/emotionalFaceView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
